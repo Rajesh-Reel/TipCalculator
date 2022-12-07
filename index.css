@@ -1,6 +1,8 @@
 :root {
     height: 100vh;
     background-color: lightblue;
+    background-image: url("https://i2-prod.birminghammail.co.uk/incoming/article9719466.ece/ALTERNATES/s1200/Nosh-and-Quaff-35.jpg");
+    background-size: cover; /* scales it to screen size */
 }
 
 #container {
