@@ -16,12 +16,14 @@
                 £ <input id="billAmount" type="text" placeholder="Bill Amount">
                 <p>How was your service?</p>
                 <select id="serviceQuality">
-                    <option>Choose an option...
-
-                    </option>
+                    <option disabled selected value="0">Please Choose:</option>
+                    <option value="0.1">10&#37; &#45; Bad</option>
                 </select>
             </form>
             <button onclick="calculateTip()" id="calculate">Calculate!</button>
+        </div>
+        <div id="totalTip">
+            <sup>£</sup><span id="tip">0.00</span>
         </div>
     </main>
     <script src="index.js"></script>

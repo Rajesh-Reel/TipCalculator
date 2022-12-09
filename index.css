@@ -6,7 +6,28 @@
 }
 
 #container {
+    background-color: red;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    width: fit-content;
+    border-radius: 20px
+}
+
+#totalTip {
+    flex-direction: row;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#totalTip sup {
+    font-size: 20px;
+    margin-top: -18px;
+}
+
+#calculate {
+    margin-top: 20px;
 }
